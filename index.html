@@ -15,7 +15,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
-
+    <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/over-write.css" rel="stylesheet">
 
@@ -24,7 +24,7 @@
 <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav class="wow fadeIn navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="hover" src="img/logo-nav.png" alt=""></a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,21 +48,21 @@
     </nav>
 
     <!-- Intro Header -->
-    <header class="masthead">
+    <header class="masthead wow fadeIn">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <img class="img-fluid" src="img/logo.png" alt="Logo marca Markai">
                         <div class="row">
-                            <div class="col-md-6">
-                                <a class="hover" href="https://www.apple.com/br/ios/app-store/" target="_blank"><img src="img/apple.png" alt="Markai App store" target="_blank"></a>
+                            <div class="col-6">
+                                <a class="hover" href="https://www.apple.com/br/ios/app-store/" target="_blank"><img class="img-fluid"  src="img/apple.png" alt="Markai App store" target="_blank"></a>
                             </div>
-                            <div class="col-md-6">
-                                <a class="hover" href="https://play.google.com/Store%E2%80%8E" target="_blank"><img src="img/google-play.png" alt="Markai App google play"></a>
+                            <div class="col-6">
+                                <a class="hover" href="https://play.google.com/Store%E2%80%8E" target="_blank"><img class="img-fluid" src="img/google-play.png" alt="Markai App google play"></a>
                             </div>
                         </div>
-                         <a href="#about" class="js-scroll-trigger btn btn-default btn-lg">Saiba mais</a>
+                         <a href="#about" class="my-3 js-scroll-trigger btn btn-default btn-lg">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -70,10 +70,10 @@
     </header>
 
     <!-- About Section -->
-    <section id="about" class="content-section text-center">
+    <section id="about" class="wow fadeInUp content-section text-center">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 mx-auto">
+                <div class="wow fadeInUp col-lg-8 mx-auto">
                     <h2>Como funciona</h2>
                     <hr class="bg-light">
                     <p>Sabendo da dificuldade que é encontrar o horário desejado para praticar um esporte, criamos o aplicativo Mark Aí.</p>
@@ -87,7 +87,7 @@
     <!-- Download Section -->
     <section id="download" class="download-section content-section text-center">
         <div class="container">
-            <div class="col-lg-8 mx-auto">
+            <div class="wow fadeInUp  col-lg-8 mx-auto">
                 <h2>Quem somos</h2>
                 <hr class="bg-light">
                 <p>O Mark Aí surgiu em 2018, quando dois universitários tinham de fazer um trabalho de aula, onde sua função era elaborar um aplicativo qualquer, que ainda não existisse no mercado, e facilitasse a vida das pessoas.</p>
@@ -98,7 +98,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="content-section text-center">
+    <section id="contact" class="wow fadeInUp content-section text-center">
         <div class="container">
             <h2>Entre em contato</h2>
             <hr class="bg-light">
@@ -136,7 +136,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-light text-dark">
+    <footer class="wow fadeInUp bg-light text-dark">
         <div class="container text-center">
             <p>Copyright &copy; Markai 2018</p>
             <p>Desenvolvido por <a href="https://rodrigowebdev.github.io/devninja.github.io/" target="_blank">Rodrigo Queiroz</a></p>
@@ -149,6 +149,10 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="js/grayscale.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 
 </body>
 
